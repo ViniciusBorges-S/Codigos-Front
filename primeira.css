@@ -1,0 +1,41 @@
+body{
+	background: linear-gradient(45deg, #f6f5f5, #d3e0ea, #1687a7, #276678);
+	background-size: 300% 300%;
+	animation: colors 13s ease infinite;
+}
+
+main{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 4rem;
+	color: rgb(236, 188, 98);
+	border: 3px solid rgb(236, 188, 98);
+	padding: 2rem 4rem;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+@keyframes colors{
+	0%{
+		background-position: 0% 50%;
+	}
+
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0% 50%;
+	}
+
+} 
+.botao{
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	color: rgb(236, 188, 98);
+	border: 4px rgb(236, 188, 98);
+	background: none;
+}
+.botao:hover{
+	color: red;
+}
